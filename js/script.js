@@ -1,0 +1,1 @@
+document.getElementById("menu-btn").addEventListener("click",(function(){document.querySelector(".navigation").classList.toggle("active")}));

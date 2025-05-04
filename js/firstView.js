@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{let e=document.querySelectorAll(".slide"),t=0,n=0;function l(){n<e.length?(e.forEach(((e,n)=>{e.style.opacity=n===t?"1":"0"})),n++,t=(t+1)%e.length):clearInterval(o)}l();const o=setInterval(l,3e3)}));
